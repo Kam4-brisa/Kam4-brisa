@@ -22,11 +22,10 @@ Os dois têm código privado. Se quiser ver algo rodando, me chama.
 
 ### Stack
 
-|  |  |
-|:--|:--|
-| **Back-end** | <img src="https://skillicons.dev/icons?i=python,flask,postgres" height="36" /> |
-| **Front-end** | <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind" height="36" /> |
-| **Infra** | <img src="https://skillicons.dev/icons?i=docker,linux,git,vercel" height="36" /> |
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg" />
+  <img alt="Python, Flask, PostgreSQL, Gunicorn, pytest, Docker, Linux, Next.js, React, TypeScript, Tailwind, Framer Motion, Git, Vercel" src="assets/stack-dark.svg" width="100%" />
+</picture>
 
 <br/>
 
@@ -40,7 +39,7 @@ Os dois têm código privado. Se quiser ver algo rodando, me chama.
 
 ### Contribuições
 
-Cada quadrado verde é um dia com commit. A cobrinha cresce a cada um que come.
+Cada quadrado verde é um dia com commit. A cobrinha vai atrás de cada um e cresce quando come.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kam4-brisa/Kam4-brisa/output/github-snake-dark.svg" />
