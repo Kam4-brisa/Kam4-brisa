@@ -39,7 +39,7 @@ Os dois têm código privado. Se quiser ver algo rodando, me chama.
 
 ### Contribuições
 
-Cada quadrado verde é um dia com commit. A cobrinha vai atrás de cada um e cresce quando come.
+Cada quadrado verde é um dia com commit. A cobrinha come todos.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kam4-brisa/Kam4-brisa/output/github-snake-dark.svg" />
