@@ -39,8 +39,6 @@ Os dois têm código privado. Se quiser ver algo rodando, me chama.
 
 ### Contribuições
 
-Cada quadrado verde é um dia com commit. A cobrinha come todos.
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kam4-brisa/Kam4-brisa/output/github-snake-dark.svg" />
   <img alt="Cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/Kam4-brisa/Kam4-brisa/output/github-snake.svg" width="100%" />
