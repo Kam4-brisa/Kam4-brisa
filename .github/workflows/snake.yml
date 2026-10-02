@@ -15,13 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg?color_snake=#059669&color_dots=#e4e4e7,#a7f3d0,#34d399,#059669,#065f46
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#34d399&color_dots=#18181b,#064e3b,#047857,#10b981,#34d399
-
+      - uses: actions/checkout@v4
+      - run: python scripts/snake.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
