@@ -11,12 +11,13 @@ Gosto de pegar uma ideia e levar até virar produto: modelar os dados, escrever 
 
 ### Projetos
 
-Os dois têm código privado. Se quiser ver algo rodando, me chama.
-
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/projects-light.svg" />
-  <img alt="Pumpo e Hermetico" src="assets/projects-dark.svg" width="100%" />
+  <img alt="Kana Sprint, Pumpo e Hermetico" src="assets/projects-dark.svg" width="100%" />
 </picture>
+
+- **[Kana Sprint](https://github.com/Kam4-brisa/kana-sprint)**: app para aprender japonês em sessões curtas, com trilha de kana e kanji, escrita com conferência de traços e simulados do JLPT. Código aberto.
+- **Pumpo** e **Hermetico** têm código privado. Se quiser ver algo rodando, me chama.
 
 <br/>
 
@@ -24,7 +25,7 @@ Os dois têm código privado. Se quiser ver algo rodando, me chama.
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg" />
-  <img alt="Python, Flask, PostgreSQL, Gunicorn, pytest, Docker, Linux, Next.js, React, TypeScript, Tailwind, Framer Motion, Git, Vercel" src="assets/stack-dark.svg" width="100%" />
+  <img alt="Python, Flask, PostgreSQL, Gunicorn, pytest, Docker, Linux, Next.js, React, TypeScript, JavaScript, Tailwind, Vite, Framer Motion, Git, Vercel" src="assets/stack-dark.svg" width="100%" />
 </picture>
 
 <br/>
@@ -32,7 +33,8 @@ Os dois têm código privado. Se quiser ver algo rodando, me chama.
 ### Em foco agora
 
 - Evoluindo o **Pumpo** e o **Hermetico** com entregas semanais
-- Testes automatizados com `pytest` nos fluxos principais
+- Levando o **Kana Sprint** para o meu servidor
+- Testes automatizados nos fluxos principais: `pytest` no back-end, Vitest no front
 - Animações de interface com Framer Motion
 
 <br/>
