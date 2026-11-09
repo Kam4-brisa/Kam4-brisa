@@ -19,6 +19,6 @@
 <text x="66" y="104" class="m" font-size="15" fill="#34d399">kam4-brisa</text>
 <text x="64" y="200" class="f" font-size="104" font-weight="700" letter-spacing="-4" fill="#fafafa">André</text>
 <g clip-path="url(#tc)"><rect class="sw" x="0" y="100" width="220" height="120" fill="url(#sg)"/></g>
-<text x="66" y="252" class="f" font-size="22" fill="#a1a1aa">Desenvolvo produtos web de ponta a ponta</text>
-<text x="66" y="284" class="f" font-size="22" fill="#a1a1aa">com Python e Next.js.</text>
+<text x="66" y="252" class="f" font-size="22" fill="#a1a1aa">I build web products end to end</text>
+<text x="66" y="284" class="f" font-size="22" fill="#a1a1aa">with TypeScript, React, Node.js and Python.</text>
 </svg>

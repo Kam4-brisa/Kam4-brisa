@@ -1,7 +1,7 @@
 """Gera assets/stack-{dark,light}.svg: duas faixas de logos rolando (marquee). Ícones do Simple Icons."""
 import re, urllib.request
 ROWS = [
-    [("python", "Python"), ("flask", "Flask"), ("postgresql", "PostgreSQL"), ("gunicorn", "Gunicorn"), ("pytest", "pytest"), ("docker", "Docker"), ("linux", "Linux")],
+    [("python", "Python"), ("flask", "Flask"), ("nodedotjs", "Node.js"), ("express", "Express"), ("oracle", "Oracle"), ("postgresql", "PostgreSQL"), ("gunicorn", "Gunicorn"), ("pytest", "pytest"), ("docker", "Docker"), ("linux", "Linux")],
     [("nextdotjs", "Next.js"), ("react", "React"), ("typescript", "TypeScript"), ("javascript", "JavaScript"), ("tailwindcss", "Tailwind"), ("vite", "Vite"), ("framer", "Framer Motion"), ("git", "Git"), ("vercel", "Vercel")],
 ]
 T = {"dark": dict(bg="#09090b", ln="#27272a", fg="#e4e4e7", ic="#a1a1aa"),

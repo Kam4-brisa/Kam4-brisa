@@ -1,9 +1,9 @@
 """Gera assets/projects-{dark,light}.svg: cards dos projetos com borda animada."""
 PROJECTS = [
     # (nome, rótulo, descrição, tags, largura em colunas: 2 = linha inteira)
-    ("Kana Sprint", "código aberto", "Japonês em sessões de 2 minutos, pensado para quem tem TDAH.", ["JavaScript", "Vite", "Vitest"], 2),
-    ("Pumpo", "código privado", "Plataforma web com área do aluno, rotas e painel.", ["Python", "Flask", "Docker"], 1),
-    ("Hermetico", "código privado", "Gera sites e landing pages por nicho.", ["Python", "Next.js", "Tailwind"], 1),
+    ("Kana Sprint", "open source", "Learn Japanese in 2-minute sessions, designed for ADHD.", ["JavaScript", "Vite", "Vitest"], 2),
+    ("Pumpo", "private", "SaaS for trainers and nutritionists, with AI.", ["Python", "Flask", "Docker"], 1),
+    ("Hermetico", "private", "Finds businesses with no site and ships one.", ["Python", "Next.js", "Tailwind"], 1),
 ]
 T = {"dark": dict(bg="#09090b", ln="#27272a", title="#fafafa", fg="#a1a1aa", acc="#34d399", ghost="#18181b"),
      "light": dict(bg="#fafafa", ln="#e4e4e7", title="#18181b", fg="#52525b", acc="#059669", ghost="#f0f0f2")}
@@ -13,7 +13,7 @@ SPLIT = 700  # largura do card da esquerda na linha de dois
 
 def card(x, y, w, p, t, delay):
     name, label, desc, tags, _ = p
-    open_src = label == "código aberto"
+    open_src = label == "open source"
     out = [f'<rect x="{x+1}" y="{y+1}" width="{w-2}" height="{H}" rx="16" fill="{t["bg"]}" stroke="{t["ln"]}"/>']
     if open_src:  # kana grandes ao fundo, só no projeto aberto
         out.append(f'<text x="{x+w-40}" y="{y+200}" text-anchor="end" class="j" font-size="150" font-weight="700" fill="{t["ghost"]}">かな</text>')
